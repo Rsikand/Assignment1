@@ -1,1 +1,7 @@
+wc-dhcp238d101:Assignment1 RyanSikand$ git status
+On branch development
+Your branch is ahead of 'origin/development' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+wc-dhcp238d101:Assignment1 RyanSikand$ 
 
