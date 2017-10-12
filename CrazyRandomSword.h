@@ -6,9 +6,25 @@
 //
 //
 
-#ifndef CrazyRandomSword_hpp
-#define CrazyRandomSword_hpp
+#include <string>
+#include <cstdlib>
+#include <math.h>
+#include <time.h>
+#include "Weapon.h"
 
-#include <stdio.h>
+#ifndef CRAZYRANDOMSWORD_H
+#define CRAZYRANDOMSWORD_H
 
-#endif /* CrazyRandomSword_hpp */
+class CrazyRandomSword : public Weapon {
+public:
+    
+    CrazyRandomSword() : Weapon("Crazy Random Sword", (rand() % 90 + 10)) {
+        srand(time(NULL)); 
+    }
+    virtual ~CrazyRandomSword() {};
+    virtual double hit(double armor);
+    
+};
+
+
+#endif /* CRAZYRANDOMSWORD_H */

@@ -6,9 +6,20 @@
 //
 //
 
-#ifndef Gun_hpp
-#define Gun_hpp
+#include <string>
+#include "Weapon.h"
 
-#include <stdio.h>
+#ifndef GUN_H
+#define GUN_H
 
-#endif /* Gun_hpp */
+class Gun : public Weapon {
+public:
+    
+    Gun() : Weapon("Gun", 40.0) {
+    }
+    virtual ~Gun() {};
+    virtual double hit(double armor);
+    
+};
+
+#endif /* GUN_H */
