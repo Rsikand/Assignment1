@@ -1,0 +1,27 @@
+a) 
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 984 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Rsikand/Assignment1.git
+   1cc7d66..4e321f2  development -> development
+
+b) 6, git log
+
+c) Date:   Wed Sep 27 16:31:42 2017 -0500, git log .gitignore
+
+d) commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca and commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+e) It is fast and easy to merge branches. creating a new branch is a safe environment from the master branch so if you don’t like what you change or make you don’t have to merge it. Its easy to track your changes from branch to branch.
+
+f) Git log shows you the commit history, git status displays the state of the working directory.
+
+g) git log Weapon.h
+
+h) git log —grep=file
+
+i) Inheritance enables new objects to take on the properties of existing objects.
+Polymorphism refers to a programming language's ability to process objects differently depending on their data type or class.
+Encapsulation is the process of combining data and functions into a single class.
